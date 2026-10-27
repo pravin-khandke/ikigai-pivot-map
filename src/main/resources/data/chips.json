@@ -1,0 +1,46 @@
+{
+  "loves": [
+    "helping people",
+    "solving puzzles",
+    "making things",
+    "teaching",
+    "organizing",
+    "numbers",
+    "writing",
+    "being outdoors"
+  ],
+  "enjoyed_most": [
+    "talking to customers",
+    "finding errors",
+    "working through a queue",
+    "mentoring",
+    "using tools",
+    "variety"
+  ],
+  "good_at": [
+    "explaining",
+    "spotting errors",
+    "calming people",
+    "planning",
+    "using software",
+    "negotiating",
+    "fixing things"
+  ],
+  "world_needs": [
+    "health",
+    "education",
+    "small business",
+    "climate",
+    "aging",
+    "community",
+    "safety"
+  ],
+  "help_who": [
+    "patients",
+    "students",
+    "small owners",
+    "older adults",
+    "families",
+    "neighbors"
+  ]
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Find Your Great Career</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-BR7GGTv_.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DsvkuHOb.css">
+</head>
+<body>
+  <header>
+    <b class="disp">Find Your <i>Great Career</i></b>
+    <span>Estimates, not promises &middot; session only, nothing stored</span>
+  </header>
+
+  <nav class="pick" aria-label="Field selection">
+    <span class="lab">Field</span>
+    <span id="fields"></span>
+  </nav>
+
+  <nav class="pick" aria-label="Role selection">
+    <span class="lab">Role</span>
+    <span id="roles"></span>
+  </nav>
+
+  <div class="controls" role="group" aria-label="Your numbers">
+    <span class="lab">Your numbers</span>
+    <label>
+      Savings
+      <input type="range" id="savings" min="0" max="24" value="5">
+      <span class="val mono" id="savings-val">5 mo</span>
+    </label>
+    <label>
+      Min. annual income
+      <input type="range" id="min-income" min="0" max="150000" step="1000" value="42000">
+      <span class="val mono" id="min-income-val">$42k</span>
+    </label>
+    <label>
+      Retrain
+      <select id="retrain">
+        <option value="none">None</option>
+        <option value="weeks" selected>Weeks (≤8)</option>
+        <option value="months">Months (≤26)</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="wizard-area"></div>
+  <div id="resume-area" hidden></div>
+
+  <main id="results" hidden>
+    <section class="hero" aria-labelledby="h1">
+      <div>
+        <h1 class="disp" id="h1"></h1>
+        <p class="lede" id="lede"></p>
+        <div class="persona">
+          <button class="btn" id="btn-story">&#9654; Play Maria's story</button>
+          <button class="btn alt" id="btn-wizard">Try your own role &rarr;</button>
+        </div>
+        <div class="chips" id="chips"></div>
+      </div>
+      <div id="diagram" aria-label="Ikigai diagram — four overlapping circles"></div>
+    </section>
+
+    <div id="note" hidden></div>
+
+    <section class="sec" aria-labelledby="targets-heading">
+      <h2 class="disp" id="targets-heading">Where the overlap points</h2>
+      <div class="sub">Each card shows which circles it satisfies, the skill gap, and an estimate.</div>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section class="sec" aria-labelledby="bridge-heading">
+      <h2 class="disp" id="bridge-heading">Your 90-day bridge</h2>
+      <div class="sub">Income plan to the first target — and how long your savings hold.</div>
+      <div class="bridge">
+        <div class="steps" id="steps"></div>
+        <div class="run" id="runway"></div>
+      </div>
+    </section>
+  </main>
+
+    <div id="caption-bar" class="caption-bar" hidden></div>
+
+  <footer class="mono">All numbers are illustrative estimates. Session only, nothing is stored.</footer>
+
+</body>
+</html>

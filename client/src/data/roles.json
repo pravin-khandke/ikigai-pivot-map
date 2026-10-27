@@ -1,0 +1,703 @@
+{
+  "fields": {
+    "Insurance & Finance": [
+      "claims",
+      "data"
+    ],
+    "Customer Service": [
+      "support",
+      "call"
+    ],
+    "Marketing & Content": [
+      "copy",
+      "social"
+    ]
+  },
+  "roles": {
+    "claims": {
+      "id": "claims",
+      "field": "Insurance & Finance",
+      "lost_role": "Claims processor",
+      "persona": "Maria",
+      "headline": "Your job left. Three circles stayed.",
+      "story": "Maria processed claims. Software does now. Her \"paid for\" circle collapsed; what she loves, what she is good at, and what the world needs did not.",
+      "defaults": {
+        "years": 8,
+        "loves": [
+          "helping people",
+          "organizing"
+        ],
+        "good_at": [
+          "spotting errors",
+          "calming people"
+        ],
+        "world_needs": [
+          "health",
+          "aging"
+        ],
+        "enjoyed_most": [
+          "finding errors",
+          "working through a queue"
+        ],
+        "help_who": [
+          "patients",
+          "older adults"
+        ],
+        "savings_months": 5,
+        "min_income": 3500,
+        "retrain": "weeks"
+      },
+      "loves": [
+        "helping people",
+        "organizing"
+      ],
+      "good_at": [
+        "spotting errors",
+        "calming people"
+      ],
+      "world_needs": [
+        "health",
+        "aging"
+      ],
+      "enjoyed_most": [
+        "finding errors",
+        "working through a queue"
+      ],
+      "help_who": [
+        "patients",
+        "older adults"
+      ],
+      "targets": [
+        {
+          "title": "Patient Billing Advocate",
+          "why_it_fits": "Same claims logic, now on the patient's side.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "medical coding",
+            "appeals writing"
+          ],
+          "est_pay_range": {
+            "min": 48000,
+            "max": 62000
+          },
+          "est_weeks_to_ready": 8
+        },
+        {
+          "title": "Health-Plan Navigator",
+          "why_it_fits": "Helps families pick and use coverage.",
+          "circles": [
+            "love",
+            "good"
+          ],
+          "skill_gap": [
+            "plan types",
+            "enrollment tools"
+          ],
+          "est_pay_range": {
+            "min": 44000,
+            "max": 58000
+          },
+          "est_weeks_to_ready": 6
+        },
+        {
+          "title": "Community Health Worker",
+          "why_it_fits": "Door-to-door help for neighbors.",
+          "circles": [
+            "love",
+            "need"
+          ],
+          "skill_gap": [
+            "CHW certificate",
+            "outreach"
+          ],
+          "est_pay_range": {
+            "min": 36000,
+            "max": 46000
+          },
+          "est_weeks_to_ready": 14
+        }
+      ],
+      "bridge": {
+        "steps": [
+          "Contract claims-audit gigs while you start a 6-week billing-coding course.",
+          "Finish certificate; apply to 10 billing-advocate and navigator roles.",
+          "Interview, then start. Gig income covers the gap."
+        ],
+        "runway_months": 5
+      }
+    },
+    "data": {
+      "id": "data",
+      "field": "Insurance & Finance",
+      "lost_role": "Data-entry clerk",
+      "persona": "Dev",
+      "headline": "The forms fill themselves.",
+      "story": "Dev typed records into systems for six years. Extraction software does it now. Accuracy, patience and process sense still count.",
+      "defaults": {
+        "years": 6,
+        "loves": [
+          "organizing",
+          "numbers"
+        ],
+        "good_at": [
+          "spotting errors",
+          "using software"
+        ],
+        "world_needs": [
+          "small business"
+        ],
+        "enjoyed_most": [
+          "finding errors",
+          "using tools"
+        ],
+        "help_who": [
+          "small owners"
+        ],
+        "savings_months": 4,
+        "min_income": 3200,
+        "retrain": "weeks"
+      },
+      "loves": [
+        "organizing",
+        "numbers"
+      ],
+      "good_at": [
+        "spotting errors",
+        "using software"
+      ],
+      "world_needs": [
+        "small business"
+      ],
+      "enjoyed_most": [
+        "finding errors",
+        "using tools"
+      ],
+      "help_who": [
+        "small owners"
+      ],
+      "targets": [
+        {
+          "title": "Data Quality Analyst",
+          "why_it_fits": "Checks the machine's extractions and fixes the exceptions.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "SQL basics",
+            "data cleaning"
+          ],
+          "est_pay_range": {
+            "min": 50000,
+            "max": 68000
+          },
+          "est_weeks_to_ready": 8
+        },
+        {
+          "title": "Operations Coordinator",
+          "why_it_fits": "Keeps small-business workflows running.",
+          "circles": [
+            "love",
+            "good"
+          ],
+          "skill_gap": [
+            "project tools",
+            "vendor mgmt"
+          ],
+          "est_pay_range": {
+            "min": 42000,
+            "max": 56000
+          },
+          "est_weeks_to_ready": 6
+        },
+        {
+          "title": "Bookkeeper",
+          "why_it_fits": "Monthly books for local owners.",
+          "circles": [
+            "love",
+            "need"
+          ],
+          "skill_gap": [
+            "QuickBooks",
+            "accrual basics"
+          ],
+          "est_pay_range": {
+            "min": 38000,
+            "max": 52000
+          },
+          "est_weeks_to_ready": 16
+        }
+      ],
+      "bridge": {
+        "steps": [
+          "Take data-cleanup gigs; start a SQL basics course.",
+          "Build a 2-sample cleanup portfolio; apply to 12 roles.",
+          "Start contract-to-hire; gigs cover the gap."
+        ],
+        "runway_months": 4
+      }
+    },
+    "support": {
+      "id": "support",
+      "field": "Customer Service",
+      "lost_role": "Customer-support agent",
+      "persona": "Sam",
+      "headline": "The chat queue went to a bot.",
+      "story": "Sam answered tickets for four years. A bot handles tier 1 now. Patience, product knowledge and calming upset people still carry weight.",
+      "defaults": {
+        "years": 4,
+        "loves": [
+          "helping people",
+          "solving puzzles"
+        ],
+        "good_at": [
+          "calming people",
+          "explaining"
+        ],
+        "world_needs": [
+          "small business"
+        ],
+        "enjoyed_most": [
+          "talking to customers",
+          "working through a queue"
+        ],
+        "help_who": [
+          "small owners"
+        ],
+        "savings_months": 3,
+        "min_income": 3000,
+        "retrain": "weeks"
+      },
+      "loves": [
+        "helping people",
+        "solving puzzles"
+      ],
+      "good_at": [
+        "calming people",
+        "explaining"
+      ],
+      "world_needs": [
+        "small business"
+      ],
+      "enjoyed_most": [
+        "talking to customers",
+        "working through a queue"
+      ],
+      "help_who": [
+        "small owners"
+      ],
+      "targets": [
+        {
+          "title": "Customer Success Manager",
+          "why_it_fits": "Owns onboarding and renewals for a small SaaS account list.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "CRM tools",
+            "renewal playbooks"
+          ],
+          "est_pay_range": {
+            "min": 55000,
+            "max": 72000
+          },
+          "est_weeks_to_ready": 6
+        },
+        {
+          "title": "Bot Trainer / QA Reviewer",
+          "why_it_fits": "Reviews and corrects the AI answers you used to replace.",
+          "circles": [
+            "love",
+            "good"
+          ],
+          "skill_gap": [
+            "prompt basics",
+            "QA rubrics"
+          ],
+          "est_pay_range": {
+            "min": 46000,
+            "max": 60000
+          },
+          "est_weeks_to_ready": 4
+        },
+        {
+          "title": "Technical Support Engineer",
+          "why_it_fits": "Escalation tier: logs, APIs, reproducing bugs.",
+          "circles": [
+            "love",
+            "need"
+          ],
+          "skill_gap": [
+            "SQL basics",
+            "API tooling"
+          ],
+          "est_pay_range": {
+            "min": 58000,
+            "max": 78000
+          },
+          "est_weeks_to_ready": 20
+        }
+      ],
+      "bridge": {
+        "steps": [
+          "Freelance support-QA gigs while taking a 4-week CRM course.",
+          "Build a 2-page onboarding playbook; apply to 12 success roles.",
+          "Interview and start; keep one gig client for cushion."
+        ],
+        "runway_months": 3
+      }
+    },
+    "call": {
+      "id": "call",
+      "field": "Customer Service",
+      "lost_role": "Call-center rep",
+      "persona": "Lee",
+      "headline": "The phones are answered by AI.",
+      "story": "Lee took 60 calls a day. Voice agents take most now. Hard calls, empathy and de-escalation are the part left.",
+      "defaults": {
+        "years": 5,
+        "loves": [
+          "helping people",
+          "teaching"
+        ],
+        "good_at": [
+          "calming people",
+          "negotiating"
+        ],
+        "world_needs": [
+          "aging",
+          "health"
+        ],
+        "enjoyed_most": [
+          "talking to customers",
+          "variety"
+        ],
+        "help_who": [
+          "older adults",
+          "families"
+        ],
+        "savings_months": 2,
+        "min_income": 2800,
+        "retrain": "months"
+      },
+      "loves": [
+        "helping people",
+        "teaching"
+      ],
+      "good_at": [
+        "calming people",
+        "negotiating"
+      ],
+      "world_needs": [
+        "aging",
+        "health"
+      ],
+      "enjoyed_most": [
+        "talking to customers",
+        "variety"
+      ],
+      "help_who": [
+        "older adults",
+        "families"
+      ],
+      "targets": [
+        {
+          "title": "Patient Access Specialist",
+          "why_it_fits": "Front door for clinics: scheduling, coverage, calm.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "EHR basics",
+            "insurance terms"
+          ],
+          "est_pay_range": {
+            "min": 38000,
+            "max": 50000
+          },
+          "est_weeks_to_ready": 5
+        },
+        {
+          "title": "Escalations Specialist",
+          "why_it_fits": "Takes the calls the voice agent hands off.",
+          "circles": [
+            "love",
+            "good"
+          ],
+          "skill_gap": [
+            "policy knowledge",
+            "CRM tools"
+          ],
+          "est_pay_range": {
+            "min": 44000,
+            "max": 58000
+          },
+          "est_weeks_to_ready": 4
+        },
+        {
+          "title": "Care Coordinator",
+          "why_it_fits": "Connects older adults with services.",
+          "circles": [
+            "love",
+            "need"
+          ],
+          "skill_gap": [
+            "case notes",
+            "local resources"
+          ],
+          "est_pay_range": {
+            "min": 42000,
+            "max": 56000
+          },
+          "est_weeks_to_ready": 12
+        }
+      ],
+      "bridge": {
+        "steps": [
+          "Pick up part-time clinic front-desk shifts; start EHR basics.",
+          "Complete certificate; apply to 10 clinics.",
+          "Start full-time; keep one shift as cushion."
+        ],
+        "runway_months": 2
+      }
+    },
+    "copy": {
+      "id": "copy",
+      "field": "Marketing & Content",
+      "lost_role": "Junior copywriter",
+      "persona": "Priya",
+      "headline": "The drafts are written by AI.",
+      "story": "Priya wrote product copy. A model drafts it free now. Taste, voice, and knowing what a customer needs to hear are still hers.",
+      "defaults": {
+        "years": 3,
+        "loves": [
+          "writing",
+          "making things"
+        ],
+        "good_at": [
+          "explaining",
+          "spotting errors"
+        ],
+        "world_needs": [
+          "education",
+          "small business"
+        ],
+        "enjoyed_most": [
+          "finding errors",
+          "using tools"
+        ],
+        "help_who": [
+          "students",
+          "small owners"
+        ],
+        "savings_months": 4,
+        "min_income": 3000,
+        "retrain": "weeks"
+      },
+      "loves": [
+        "writing",
+        "making things"
+      ],
+      "good_at": [
+        "explaining",
+        "spotting errors"
+      ],
+      "world_needs": [
+        "education",
+        "small business"
+      ],
+      "enjoyed_most": [
+        "finding errors",
+        "using tools"
+      ],
+      "help_who": [
+        "students",
+        "small owners"
+      ],
+      "targets": [
+        {
+          "title": "AI Content Editor",
+          "why_it_fits": "Shapes and fact-checks machine drafts for a brand voice.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "style guides",
+            "fact-checking"
+          ],
+          "est_pay_range": {
+            "min": 45000,
+            "max": 60000
+          },
+          "est_weeks_to_ready": 3
+        },
+        {
+          "title": "UX Writer",
+          "why_it_fits": "Words inside the product: buttons, errors, onboarding.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "UX research",
+            "Figma basics"
+          ],
+          "est_pay_range": {
+            "min": 60000,
+            "max": 85000
+          },
+          "est_weeks_to_ready": 12
+        },
+        {
+          "title": "Grant & Nonprofit Writer",
+          "why_it_fits": "Writes funding stories for education groups.",
+          "circles": [
+            "love",
+            "need"
+          ],
+          "skill_gap": [
+            "grant structure",
+            "budgets"
+          ],
+          "est_pay_range": {
+            "min": 40000,
+            "max": 52000
+          },
+          "est_weeks_to_ready": 8
+        }
+      ],
+      "bridge": {
+        "steps": [
+          "Take editing gigs on AI drafts; start a 3-week UX writing course.",
+          "Publish 3 portfolio samples; pitch 15 teams.",
+          "Land a contract-to-hire; gigs bridge the gap."
+        ],
+        "runway_months": 4
+      }
+    },
+    "social": {
+      "id": "social",
+      "field": "Marketing & Content",
+      "lost_role": "Social media coordinator",
+      "persona": "Jo",
+      "headline": "The feed is scheduled by bots.",
+      "story": "Jo ran three brand accounts. Scheduling and captions are automated now. Community sense and brand voice are not.",
+      "defaults": {
+        "years": 4,
+        "loves": [
+          "making things",
+          "writing"
+        ],
+        "good_at": [
+          "explaining",
+          "planning"
+        ],
+        "world_needs": [
+          "community"
+        ],
+        "enjoyed_most": [
+          "variety",
+          "using tools"
+        ],
+        "help_who": [
+          "neighbors"
+        ],
+        "savings_months": 6,
+        "min_income": 3000,
+        "retrain": "weeks"
+      },
+      "loves": [
+        "making things",
+        "writing"
+      ],
+      "good_at": [
+        "explaining",
+        "planning"
+      ],
+      "world_needs": [
+        "community"
+      ],
+      "enjoyed_most": [
+        "variety",
+        "using tools"
+      ],
+      "help_who": [
+        "neighbors"
+      ],
+      "targets": [
+        {
+          "title": "Community Manager",
+          "why_it_fits": "Runs a real community for a local brand or nonprofit.",
+          "circles": [
+            "love",
+            "good",
+            "need"
+          ],
+          "skill_gap": [
+            "moderation",
+            "event planning"
+          ],
+          "est_pay_range": {
+            "min": 46000,
+            "max": 62000
+          },
+          "est_weeks_to_ready": 4
+        },
+        {
+          "title": "Creative Strategist",
+          "why_it_fits": "Decides what the AI should be asked to make.",
+          "circles": [
+            "love",
+            "good"
+          ],
+          "skill_gap": [
+            "analytics",
+            "briefs"
+          ],
+          "est_pay_range": {
+            "min": 55000,
+            "max": 75000
+          },
+          "est_weeks_to_ready": 10
+        },
+        {
+          "title": "Events Coordinator",
+          "why_it_fits": "Turns online fans into in-person events.",
+          "circles": [
+            "love",
+            "need"
+          ],
+          "skill_gap": [
+            "budgeting",
+            "vendors"
+          ],
+          "est_pay_range": {
+            "min": 38000,
+            "max": 50000
+          },
+          "est_weeks_to_ready": 6
+        }
+      ],
+      "bridge": {
+        "steps": [
+          "Freelance community gigs; start analytics course.",
+          "Publish 2 case studies; pitch 15 brands.",
+          "Land contract; keep one client for runway."
+        ],
+        "runway_months": 6
+      }
+    }
+  }
+}

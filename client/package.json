@@ -1,0 +1,16 @@
+{
+  "name": "ikigai-pivot-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "^5.6.205",
+    "vite": "^8.3.4"
+  }
+}
